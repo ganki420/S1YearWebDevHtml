@@ -1,0 +1,125 @@
+body {
+    background-color: grey;
+}
+
+/* Header Styles */
+
+/* Title and Logo */
+header {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header img {
+    margin: 20px 20px 20px 20px;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 32pt;
+    color: black;
+}
+
+/* Horizontal Menu */
+nav {
+    background-color: cornflowerblue;
+    border-style: solid;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav li {
+    float: left;
+    width: 200px;
+    border-right: 2px solid #bbb;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav li:last-child {
+    border-left: 2px solid #bbb;
+    border-right: none;
+}
+
+.active {
+    background-color: darkblue;
+}
+
+/* Main Body Styling */
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+main iframe {
+    margin: auto;
+}
+
+/* Form */
+#submit {
+    float:left;
+}
+
+/* Aside Styles */
+aside {
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+/* Table */
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+table tr:hover {
+    background-color: #ddd;
+}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#social {
+    background-color: cornflowerblue;
+}
